@@ -19,3 +19,5 @@ export function findFirst<T>(s: T[], p: (n: T) => boolean): number {
   return loop(0)
 }
 // -> 형식에 대한 추상을 배열과 배열 안의 한 요소를 검색하는 함수에 적용한 결과이다
+
+findFirst([7, 9, 13], (x: number) => x === 9) // 1
