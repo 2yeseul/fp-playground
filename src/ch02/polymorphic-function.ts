@@ -1,3 +1,4 @@
+// scala in fp to ts
 // 단형적 함수의 예
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export function _findFirst(s: string[], key: string): number {
